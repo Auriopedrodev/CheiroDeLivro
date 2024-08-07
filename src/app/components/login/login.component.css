@@ -1,0 +1,37 @@
+.AjusteContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+}
+
+.containerCard{
+  width: 80vh;
+  height: 70vh;
+  background-color: #4e002f;
+  border: 3px solid #ff0096;
+  border-radius: 10px;
+}
+
+.ajusuteImagem, .ajusteConteudo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5vh;
+}
+
+.ajusteConteudo{
+  display: flex;
+  flex-direction: column;
+  margin:0vh;
+  padding: 0vh;
+}
+
+.ajusteCredenciais{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3vh;
+
+}
