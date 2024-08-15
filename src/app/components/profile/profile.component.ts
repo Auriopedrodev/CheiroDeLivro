@@ -2,14 +2,14 @@ import { Component } from '@angular/core';
 import {NgOptimizedImage} from "@angular/common";
 
 @Component({
-  selector: 'app-login',
+  selector: 'app-profile',
   standalone: true,
   imports: [
     NgOptimizedImage
   ],
-  templateUrl: './login.component.html',
-  styleUrl: './login.component.css'
+  templateUrl: './profile.component.html',
+  styleUrl: './profile.component.css'
 })
-export class LoginComponent {
+export class ProfileComponent {
 
 }

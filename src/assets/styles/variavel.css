@@ -4,5 +4,14 @@
 
 :root{
   --corFundo:#FEF7FB;
+  --corRosaForte: #ff0096;
+  --corRosaEscuroPlus: #400026;
+  --corRosaClaro:#F6CEE7;
+  --corRosaEscuro:#400026FF;
+  --corIDrosaEscuro: #8c0454;
+  --corIDrosaClaro: #8c0454;
+  --corIDrosaPadrao: #ac347c;
+  --corIDrosaPadraoPlus: #a42c7c;
+  --corIDrosaPadraoPlusMax: #a42c74;
 }
 

@@ -1,0 +1,151 @@
+/*-------------------------------- A - Estilo do Card-------------------------*/
+
+.AjusteContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+  position: relative;
+}
+
+.containerCard{
+  width: 125vh;
+  height: 80vh;
+  background-color: var(--corRosaEscuro);
+  border: 5px solid #ff0096;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between; /* Espaço entre as seções */
+  gap: 20px;
+}
+.IMAG, .INFO{
+  flex:2;
+  width: 62.5vh;
+  height: 80vh;
+}
+
+.containerCard:before{
+  content:'';
+  position: absolute;
+  bottom: 50%;
+  right: 50%;
+  width: 125vh;
+  height: 80vh;
+  background-color: linear-gradient(0deg, transparent, transparent, #ac347c);
+}
+
+/*----------------------------- B - Estilo do Imagem/Logo/ Gif-----------------------------*/
+.ajusuteImagem{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ajusteImagem > img{
+  border: 3px solid var(--corRosaClaro);
+}
+
+.ajusteConteudo {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.IMAG > img{
+  width: 60vh;
+  height: 70vh;
+  margin: 40px 20px 10px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ajusteGif{
+
+}
+
+/*----------------------------- C - Estilo do Titulo-----------------------------------*/
+.ajusteConteudo{
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px 30px 1px;
+}
+
+.ajusteConteudo >small {
+  font-size: 18px;
+  color: var(--corRosaClaro);
+}
+
+.ajusteConteudo > h1{
+  padding: 0vh;
+  margin: 0vh;
+  font-size: 35px;
+  color: var(--corRosaForte);
+}
+
+
+/*----------------------------- D - Estilo do Inputs e Butões------------------------------*/
+.ajusteCredenciais{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+
+div > label {
+  color: var(--corRosaClaro);
+}
+
+.ajusteEmail > input, .ajustePassword > input {
+  width: 40vh;
+  height: 4vh;
+  border: 2px solid var(--corRosaClaro);
+  border-radius: 2px;
+  margin-top: 3px;
+  margin-bottom: 10px;
+  background: transparent;
+  outline: none;
+  color: var(--corRosaClaro);
+}
+
+.ajusteBotaoEntrar{
+  width: 20vh;
+  height: 5vh;
+  color: var(--corRosaEscuro);
+  margin-bottom: 1px;
+  background-color: var(--corRosaForte);
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Transição para background e transform */
+}
+
+.ajusteBotaoEntrar:hover{
+  background-color: var(--corRosaClaro);
+  transform: scale(1.05);
+}
+
+.ajusteCredenciaisLink{
+  display: flex;
+  align-items: center;
+  margin:0px;
+}
+
+.ajusteCredenciaisLink > p{
+  color: var(--corRosaClaro);
+}
+
+.ajusteCredenciaisLink > a{
+  font-weight: bold;
+  margin-left: 4px;
+  color: var(--corRosaForte);
+  text-decoration: none;
+}
+
+.ajusteCredenciaisLink > a:hover{
+  color: var(--corRosaClaro);
+  transform: scale(1.02);
+}
